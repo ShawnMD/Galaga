@@ -26,16 +26,16 @@ public class Game extends JFrame {
                 if (e.getKeyCode() == KeyEvent.VK_SPACE) {
                     board.shootMissle();
                 }
-                if(e.getKeyCode() == KeyEvent.VK_LEFT){
+                if (e.getKeyCode() == KeyEvent.VK_LEFT) {
                     dx -= 5;
                 }
-                if(e.getKeyCode() == KeyEvent.VK_RIGHT){
+                if (e.getKeyCode() == KeyEvent.VK_RIGHT) {
                     dx -= 5;
                 }
+
             }
-
-
         });
+
 
     }
         public static void main (String[]args){
