@@ -6,6 +6,7 @@ import java.io.BufferedReader;
 
 public class Game extends JFrame {
 
+    int dx;
     Board board;
     Sprite sprite;
 
